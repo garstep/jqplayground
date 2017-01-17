@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+html {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  margin-top: .25em;
+  font-size: 7rem;
+  letter-spacing: -1.25rem;
+  mix-blend-mode: luminosity;
+}
+h1 span {
+    mix-blend-mode: multiply;
+}
+h1 span:nth-child(1) {
+  color: rgba(#AB1795, 1);
+}
+h1 span:nth-child(2) {
+  color: rgba(#167CFB, 1);
+}
+h1 span:nth-child(3) {
+  color: rgba(#37D86E, 1);
+}
+h1 span:nth-child(4) {
+  color: rgba(#DA7C5F, 1);
+}
+h1 span:nth-child(5) {
+  color: rgba(#B020AD, 1);
+}
+h1 span:nth-child(6) {
+  color: rgba(#1685FB, 1);
+}
+h1 span:nth-child(7) {
+  color: rgba(#D4FEA1, 1);
+}
+h1 span:nth-child(8) {
+  color: rgba(#37D86E, 1);
+}
+h1 span:nth-child(9) {
+  color: rgba(#DA7C5F, 1);
+}
+h1 span:nth-child(10) {
+  color: rgba(#B020AD, 1);
+}
+h1 span:nth-child(11) {
+  color: rgba(#1685FB, 1);
+}
+h1 span:nth-child(12) {
+  color: rgba(#D4FEA1, 1);
+}
+
+
+
+
+
+
+
+
+body {
+  height: 100%;
+}
+
+html, body {
+  padding: 50;
+  margin: 0;
+  font-family: "Nocturno Display Medium 4", Georgia;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+}
+
+body {
+    background: url(images/beach.jpg);
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.blend {
+  mix-blend-mode: exclusion;
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+blockquote {
+  margin-bottom: 100px;
+  line-height: 1.0;
+}
